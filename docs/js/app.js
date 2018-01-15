@@ -149,7 +149,7 @@ App = {
         toBlock: 'latest'
       }).watch(function(error, event) {
         if (!error) {
-          $("#events").append('<li class="list-group-item">' + event.args._name + ' is for sale' + '</li>');
+          $("#events").append('<li class="list-group-item">' + event.args._name + ' is for sale!' + '</li>');
         } else {
           console.error(error);
         }
@@ -193,6 +193,7 @@ App = {
 
 $(function() {
   $(window).load(function() {
+    console.log("account");
     App.init();
   });
 });

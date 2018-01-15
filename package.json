@@ -7,12 +7,25 @@
     "test": "test"
   },
   "scripts": {
+    "build-css": "node-sass-chokidar src/css -o src/css",
+    "watch-css": "npm run build-css && node-sass-chokidar src/css -o src/css --watch --recursive",
+    "start-js": "lite-server",
+    "start": "npm-run-all -p watch-css start-js",
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ChainSkills",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.7.2",
+    "node-sass-chokidar": "0.0.3"
+  },
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "ganache-cli": "^6.0.3",
+    "global": "^4.3.2",
+    "npm-run-all": "^4.1.2",
+    "truffle": "^4.0.4"
   }
 }

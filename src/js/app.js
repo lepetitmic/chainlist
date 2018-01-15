@@ -194,5 +194,6 @@ App = {
 $(function() {
   $(window).load(function() {
     App.init();
+    console.log(App.contracts)
   });
 });
