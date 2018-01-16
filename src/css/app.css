@@ -190,6 +190,12 @@ html, body {
   letter-spacing: 2px;
   background-color: #007DF5; }
 
+.btn-small {
+  min-width: auto;
+  padding: 6px 12px;
+  line-height: 1;
+  border: none; }
+
 .itemTemplate {
   display: flex;
   align-items: stretch;
@@ -242,7 +248,7 @@ html, body {
 
 .itemTemplate__price {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: flex-end; }
   .itemTemplate__price > * {
     margin: 0 3px; }
@@ -296,8 +302,8 @@ html, body {
     color: inherit;
     text-decoration: none; }
     .footer__logo-link:hover svg {
-      transition: 250ms transform ease-out;
-      transform: rotate(180deg); }
+      transition: 500ms transform ease-out;
+      transform: rotate(360deg); }
 
 .modal-content {
   border: none;

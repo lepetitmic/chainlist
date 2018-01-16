@@ -69,15 +69,7 @@
         <li class="content__navbar-item">Events</li>
         <li class="content__navbar-item content__navbar-item--stretch"></li>
         <li class="content__navbar-item content__navbar-item--icon">
-            <svg width="10" height="17" xmlns="http://www.w3.org/2000/svg">
-              <g>
-                <path d="M5 17l-5-7 5 2.935L10 10l-5 7z"/>
-                <path d="M5 11L0 8.11 5 0l5 8.11L5 11z"/>
-              </g>
-            </svg>
-            <span id="accountBalance">
-
-            </span>
+            <span id="accountBalance"></span>
         </li>
         <li class="content__navbar-item">
           <a class="btn" data-toggle="modal" data-target="#sellArticle">Sell</a>
@@ -86,7 +78,6 @@
 
       <div id="articlesRow" class="content__item-wrapper">
         <!-- ARTICLES LOAD HERE -->
-        
       </div>
     </div>
         
@@ -183,15 +174,10 @@
           </span>
         </div>
         <div class="itemTemplate__price">
-          <svg width="10" height="17" xmlns="http://www.w3.org/2000/svg">
-            <g>
-              <path d="M5 17l-5-7 5 2.935L10 10l-5 7z"/>
-              <path d="M5 11L0 8.11 5 0l5 8.11L5 11z"/>
-            </g>
-          </svg>
           <span class="itemTemplate__price__articleprice">
             10 ETH
           </span>
+          <button type="button" class="btn btn-small btn-primary btn-success btn-buy" onclick="App.buyArticle(); return false;">Buy</button>
         </div>
       </div>
     </div>

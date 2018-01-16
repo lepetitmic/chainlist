@@ -259,6 +259,13 @@ html, body {
   background-color: $blue;
 }
 
+.btn-small {
+  min-width: auto;
+  padding: 6px 12px;
+  line-height: 1;
+  border: none;
+}
+
 .itemTemplate {
   display: flex;
   align-items: stretch;
@@ -325,7 +332,7 @@ html, body {
 
 .itemTemplate__price {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: flex-end;
 
   & > * {
@@ -399,8 +406,8 @@ html, body {
     text-decoration: none;
 
     svg {
-      transition: 250ms transform ease-out;
-      transform: rotate(180deg);
+      transition: 500ms transform ease-out;
+      transform: rotate(360deg);
     }
   }
 }
