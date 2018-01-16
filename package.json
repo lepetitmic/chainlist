@@ -17,6 +17,7 @@
   "author": "ChainSkills",
   "license": "ISC",
   "devDependencies": {
+    "include-media": "^1.4.9",
     "lite-server": "^2.3.0",
     "node-sass": "^4.7.2",
     "node-sass-chokidar": "0.0.3"
