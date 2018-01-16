@@ -66,7 +66,9 @@
 
       <ul class="content__navbar">
         <li class="content__navbar-item content__navbar-item--active">Transactions</li>
-        <li class="content__navbar-item">Events</li>
+        <li class="content__navbar-item content__navbar-item--link collapsed" data-toggle="collapse" data-target="#events" aria-expanded="false" aria-controls="events">
+          Events 
+        </li>
         <li class="content__navbar-item content__navbar-item--stretch"></li>
         <li class="content__navbar-item content__navbar-item--icon">
             <span id="accountBalance"></span>
@@ -74,6 +76,10 @@
         <li class="content__navbar-item">
           <a class="btn" data-toggle="modal" data-target="#sellArticle">Sell</a>
         </li>
+      </ul>
+
+      <ul id="events" class="collapse list-group content__item-wrapper">
+
       </ul>
 
       <div id="articlesRow" class="content__item-wrapper">
