@@ -238,6 +238,7 @@ html, body {
   }
 
   &--icon {
+    letter-spacing: 0;
     svg {
       fill: rgba($text, 0.66);
       margin-right: 6px;
@@ -394,8 +395,13 @@ html, body {
   color: inherit;
 
   &:hover {
-    color: $blue;
+    color: inherit;
     text-decoration: none;
+
+    svg {
+      transition: 250ms transform ease-out;
+      transform: rotate(180deg);
+    }
   }
 }
 
