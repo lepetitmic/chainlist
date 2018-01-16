@@ -24,11 +24,12 @@ html, body {
 
 @media (min-width: 1025px) and (max-width: 1199px) {
   .site-bg__keyvisual {
-    background-position-y: -300px;
-    background-size: 1500px auto; } }
+    background-size: 1800px auto;
+    background-position-y: -400px; } }
   @media (min-width: 1201px) {
     .site-bg__keyvisual {
-      background-size: 3000px auto; } }
+      background-size: 3000px auto;
+      background-position-y: -650px; } }
 
 .site-bg__keyvisual-overlay {
   position: absolute;
@@ -40,7 +41,7 @@ html, body {
 
 @media (min-width: 1025px) and (max-width: 1199px) {
   .site-bg__keyvisual-overlay {
-    height: 700px; } }
+    height: 800px; } }
 
 .site-bg__shape {
   position: absolute;
@@ -50,7 +51,7 @@ html, body {
   width: 100%;
   height: 800px; }
   .site-bg__shape svg {
-    fill: rgba(35, 0, 155, 0.66); }
+    fill: rgba(35, 0, 155, 0.75); }
 
 .uppercase {
   text-transform: uppercase; }
