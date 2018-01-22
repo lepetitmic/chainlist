@@ -24,44 +24,179 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="jumbotron text-center">
-      <h1>ImmoChain</h1>
-      <h2>Fast and Secure Real Estate Exchange</h2>
+  
+  <div class="site-bg">
+    <div class="site-bg__keyvisual"></div>
+    <div class="site-bg__keyvisual-overlay"></div>
+    <div class="site-bg__shape">
+      <svg width="2500" height="440" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h2500v40L0 440z" fill-rule="evenodd"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+
+    <div class="main-nav">
+      <ul class="main-nav__nav">
+        <li class="main-nav__nav__item">
+          <span class="uppercase ls-xloose fw-fat">immochain</span>
+        </li>
+        <li class="main-nav__nav__item">
+          <span id="account"></span>
+          <div class="user-avatar">
+            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.35 13.4c1.767.667 2.65 1.533 2.65 2.6H0c0-1.067.883-1.933 2.65-2.6.267-.1.667-.192 1.2-.275.533-.083.85-.142.95-.175.567-.167.9-.317 1-.45l.05-2.05a5.61 5.61 0 0 1-.45-.9l-.35-1.6c-.233 0-.383-.2-.45-.6a5.338 5.338 0 0 0-.175-.7A2.294 2.294 0 0 1 4.3 6c0-.133.017-.242.05-.325A.316.316 0 0 1 4.5 5.5h.05c-.133-.433-.217-1.133-.25-2.1-.033-.9.283-1.692.95-2.375S6.833 0 8 0s2.083.342 2.75 1.025c.667.683.983 1.475.95 2.375l-.25 2.1c.167.033.25.2.25.5 0 .067-.1.533-.3 1.4a1.1 1.1 0 0 1-.15.4.566.566 0 0 1-.2.2h-.1c-.133.767-.25 1.283-.35 1.55l-.45.9c-.067 1.233-.05 1.917.05 2.05.1.133.433.283 1 .45.1.033.417.092.95.175.533.083.933.175 1.2.275z" fill-rule="evenodd"/>
+            </svg>
+          </div>
+        </li>
+      </ul>
     </div>
 
-    <div class="col-md-12" id="article-list">
-      <div class="row">
-        <div class="col-lg-12">
-          <p id="account" class="welcome pull-right"></p>
-          <p id="accountBalance" class="welcome pull-left"></p>
-        </div>
+    <div class="hero">
+      <svg width="92" height="105" xmlns="http://www.w3.org/2000/svg">
+        <path d="M90.994 39.467A2 2 0 0 0 92 37.732V27.25c0-.027-.009-.052-.01-.078a2.02 2.02 0 0 0-.048-.36c-.009-.042-.015-.083-.027-.123a1.952 1.952 0 0 0-.179-.433l-.003-.004-.016-.022a1.998 1.998 0 0 0-.272-.355c-.03-.032-.063-.059-.096-.089a1.96 1.96 0 0 0-.288-.22c-.023-.015-.04-.036-.065-.05l-9.133-5.242a1.996 1.996 0 0 0-1.99 0l-8.14 4.671-14.597-8.377V7.242c0-.026-.01-.05-.01-.077a2.076 2.076 0 0 0-.048-.365c-.01-.04-.015-.08-.027-.12a1.91 1.91 0 0 0-.18-.433l-.003-.004c-.005-.009-.013-.016-.018-.025a1.979 1.979 0 0 0-.271-.353c-.03-.03-.062-.058-.094-.087a1.96 1.96 0 0 0-.293-.224c-.022-.014-.038-.034-.061-.047L46.995.265a1.996 1.996 0 0 0-1.99 0l-9.134 5.242c-.035.02-.062.047-.095.068-.06.04-.12.08-.176.126a2.037 2.037 0 0 0-.144.134 1.894 1.894 0 0 0-.129.14 2.014 2.014 0 0 0-.128.178c-.02.033-.048.06-.067.094-.01.018-.015.037-.025.055-.034.064-.06.13-.088.198-.023.057-.047.113-.065.171-.018.062-.03.125-.042.188-.013.064-.027.128-.033.193-.006.063-.004.127-.005.191 0 .064-.002.127.005.191.006.065.02.128.033.193.012.063.024.126.042.188.017.058.042.114.065.171.027.067.054.134.088.198.01.018.014.037.025.055.02.034.046.062.067.094a2 2 0 0 0 .128.178c.041.05.086.096.131.141.045.045.09.09.14.131.058.048.12.09.183.131.031.02.057.046.09.065l8.13 4.662v5.873l-6.14-3.524c-.019-.01-.039-.015-.058-.025a1.954 1.954 0 0 0-.193-.086 1.954 1.954 0 0 0-.175-.066c-.06-.018-.123-.029-.186-.04-.065-.014-.129-.028-.194-.034-.062-.006-.126-.004-.19-.004s-.127-.002-.191.004c-.065.006-.13.02-.194.033-.062.012-.124.023-.185.041-.06.018-.118.043-.177.067a1.8 1.8 0 0 0-.19.085c-.019.01-.039.015-.058.026l-15.602 8.953-8.14-4.67a1.996 1.996 0 0 0-1.989 0l-9.133 5.241c-.024.014-.041.035-.065.05a1.951 1.951 0 0 0-.287.22c-.033.03-.067.057-.097.09a1.99 1.99 0 0 0-.272.353c-.005.008-.012.014-.016.022l-.003.004c-.08.14-.136.286-.18.434-.012.04-.018.08-.027.12a1.977 1.977 0 0 0-.049.365c-.001.026-.01.05-.01.077v10.483a2 2 0 0 0 1.005 1.735l8.129 4.666v16.732l-8.13 4.666c-.023.014-.041.035-.064.05a1.952 1.952 0 0 0-.286.22c-.033.03-.067.057-.097.09a1.99 1.99 0 0 0-.272.353c-.005.008-.012.014-.016.022l-.003.004c-.08.14-.136.286-.18.434-.012.04-.018.08-.027.12a1.977 1.977 0 0 0-.049.365c-.001.026-.01.05-.01.077V77.75a2 2 0 0 0 1.005 1.735l9.133 5.242c.023.013.05.018.073.03.106.056.217.101.333.137.041.013.08.028.122.038.151.036.306.061.468.061.162 0 .317-.024.468-.06.04-.01.08-.026.12-.039.117-.036.228-.08.335-.137.024-.012.05-.017.073-.03l8.139-4.67 14.597 8.376v9.325a2 2 0 0 0 1.005 1.735l9.135 5.242c.023.013.049.018.073.03.106.056.217.101.334.137.04.013.08.028.12.038.152.036.307.061.468.061.162 0 .317-.024.468-.061.041-.01.08-.025.121-.038.116-.036.227-.081.334-.137.024-.012.05-.017.073-.03l9.135-5.242a2 2 0 0 0-1.99-3.47L48 99.546v-5.872l23.73-13.619 8.14 4.671c.022.013.048.018.072.03.106.056.217.101.334.137.041.013.08.028.121.038.151.036.306.061.468.061.162 0 .317-.024.468-.06.04-.01.08-.026.12-.039.117-.036.228-.08.335-.137.024-.012.05-.017.073-.03l9.133-5.242A2 2 0 0 0 92 77.75V67.265c0-.027-.009-.052-.01-.078a2.02 2.02 0 0 0-.048-.36c-.009-.042-.015-.083-.027-.123a1.952 1.952 0 0 0-.179-.433l-.003-.004-.016-.022a1.998 1.998 0 0 0-.272-.355c-.03-.032-.064-.059-.096-.089a1.878 1.878 0 0 0-.287-.219c-.024-.015-.04-.036-.066-.05l-8.129-4.666V44.133l8.127-4.666zm-8.129.055V33.65l5.136-2.947v5.872l-5.136 2.948zm-10.14 36.492c-.017-.01-.037-.016-.056-.026a2.109 2.109 0 0 0-.188-.084c-.061-.025-.12-.05-.182-.069-.057-.017-.115-.027-.173-.039-.07-.014-.138-.029-.208-.036-.057-.005-.115-.004-.173-.004-.07 0-.14-.002-.209.005-.06.006-.119.02-.179.031-.067.013-.134.025-.199.044-.057.017-.113.041-.169.064-.067.027-.132.053-.196.087-.019.01-.039.015-.057.025l-15.6 8.953-8.14-4.67a1.996 1.996 0 0 0-1.99 0l-8.14 4.67-15.601-8.953c-.017-.01-.036-.015-.054-.024a1.873 1.873 0 0 0-.2-.089c-.056-.023-.112-.047-.17-.064-.062-.019-.125-.03-.19-.042-.063-.012-.126-.026-.19-.032-.064-.006-.127-.004-.192-.004-.064 0-.128-.002-.19.004-.065.006-.128.02-.192.033-.063.012-.127.024-.189.042-.059.018-.116.042-.174.065-.066.026-.13.053-.193.086-.019.01-.039.015-.057.026l-6.14 3.524v-5.873L21.263 69c.03-.018.055-.042.085-.062a1.91 1.91 0 0 0 .19-.135 2.294 2.294 0 0 0 .27-.27c.046-.057.086-.116.125-.177.022-.033.048-.06.068-.095.01-.018.015-.037.025-.055.034-.064.061-.13.088-.198.023-.057.047-.113.065-.17.018-.063.03-.125.042-.189.013-.064.027-.128.033-.193.006-.063.004-.127.004-.19 0-.065.002-.128-.004-.192-.006-.065-.02-.129-.033-.193-.012-.063-.023-.125-.042-.187-.018-.059-.042-.115-.065-.173a2.023 2.023 0 0 0-.088-.196c-.01-.018-.015-.038-.025-.056-.02-.035-.047-.063-.069-.096a2.113 2.113 0 0 0-.124-.174 2.096 2.096 0 0 0-.136-.146 1.838 1.838 0 0 0-.137-.127 1.888 1.888 0 0 0-.182-.13c-.032-.02-.058-.047-.091-.066l-8.13-4.666v-16.73l8.13-4.666a2 2 0 0 0-1.99-3.47l-6.14 3.524V33.65l23.73-13.619 8.14 4.671c.023.013.049.018.073.03.106.056.217.101.334.137.04.013.08.028.12.038.152.036.307.061.469.061.161 0 .316-.024.467-.06.041-.01.08-.026.121-.039.116-.036.227-.08.334-.137.024-.012.05-.017.073-.03l8.14-4.67 15.6 8.953 8.13 4.665v5.872l-6.14-3.524a1.999 1.999 0 1 0-1.99 3.47l8.13 4.666v16.731l-8.13 4.666c-.035.02-.063.048-.096.07-.06.04-.118.08-.174.124a2.008 2.008 0 0 0-.143.133 1.95 1.95 0 0 0-.131.141 1.949 1.949 0 0 0-.126.176c-.022.033-.048.061-.068.095-.01.018-.015.037-.025.056a2.023 2.023 0 0 0-.088.196c-.023.057-.047.114-.065.173-.018.061-.03.124-.042.187-.013.065-.027.128-.033.193-.006.063-.004.127-.004.191s-.002.127.004.191c.006.065.02.128.033.193.012.063.023.126.042.188.017.058.042.114.065.171.027.067.054.134.088.198.01.018.014.037.025.055.02.034.046.062.067.094a2 2 0 0 0 .128.178c.04.05.086.095.13.141a1.774 1.774 0 0 0 .32.26c.033.02.06.047.094.067l8.13 4.665v5.873l-6.14-3.525zM46 90.21l-5.116-2.936L46 84.337l5.117 2.936L46 90.21zM11.135 64.33l5.117 2.936-5.117 2.936-5.117-2.936 5.117-2.936zM48 13.641l5.136-2.947v5.872L48 19.513v-5.872zm32.866 56.56l-5.117-2.936 5.117-2.936 5.117 2.936-5.117 2.936zm0-45.889l5.117 2.937-5.117 2.936-5.117-2.936 5.117-2.937zM46 4.305l5.117 2.936L46 10.177l-5.116-2.936L46 4.305zM11.135 24.312l5.117 2.936-5.117 2.936-5.117-2.935 5.117-2.937zM4 36.574v-5.872l5.136 2.947v5.872L4 36.574zm0 34.144l5.136 2.947v5.872L4 76.59v-5.872zm34.865 20.008L44 93.674v5.873l-5.136-2.948v-5.873zm44-11.188v-5.872l5.136-2.947v5.872l-5.136 2.947z"/>
+      </svg>
+      <div class="hero__headline">
+        Fast and Secure Real Estate  Exchange Blockchain
       </div>
+    </div>
 
-      <div class="row panel panel-default">
-        <div class="panel-heading clearfix">
-          <div class="panel-title">
-            <button class="btn btn-info btn-lg pull-left" data-toggle="collapse" data-target="#events" aria-expanded="false" aria-controls="events">Events</button>
-            <button class="btn btn-info btn-lg pull-right" data-toggle="modal" data-target="#sellArticle">Verkaufen</button>
+    <div class="content">
+
+      <ul class="content__navbar">
+        <li class="content__navbar-item content__navbar-item--active">Transactions</li>
+        <li class="content__navbar-item content__navbar-item--link collapsed" data-toggle="collapse" data-target="#events" aria-expanded="false" aria-controls="events">
+          Events 
+        </li>
+        <li class="content__navbar-item content__navbar-item--stretch"></li>
+        <li class="content__navbar-item content__navbar-item--icon">
+            <span id="accountBalance"></span>
+        </li>
+        <li class="content__navbar-item">
+          <a class="btn" data-toggle="modal" data-target="#sellArticle">Sell</a>
+        </li>
+      </ul>
+
+      <ul id="events" class="collapse list-group content__item-wrapper">
+
+      </ul>
+
+      <div id="articlesRow" class="content__item-wrapper">
+        <!-- ARTICLES LOAD HERE -->
+      </div>
+    </div>
+        
+  </div>
+
+  <!-- Modal form to sell an article -->
+  <div class="modal fade" id="sellArticle" role="dialog">
+      <div class="modal-dialog">
+  
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Verkaufen</h4>
+          </div>
+          <div class="modal-body">
+  
+            <div class="row">
+              <div class="col-lg-12">
+                <form>
+                  <div class="form-group">
+                    <label for="article_name">Titel</label>
+                    <input type="text" class="form-control" id="article_name" placeholder="Enter the name of your article">
+                  </div>
+                  <div class="form-group">
+                    <label for="price">Preis in ETH</label>
+                    <input type="number" class="form-control" id="article_price" placeholder="1" pattern="[0-9]+([\.,][0-9]+)?" step="0.01">
+                  </div>
+                  <div class="form-group">
+                    <label for="description">Beschreibung</label>
+                    <textarea type="text" class="form-control vresize" id="article_description" placeholder="Describe your article" maxlength="255"></textarea>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-success" data-dismiss="modal" onclick="App.sellArticle(); return false;">Submit</button>
+            <button type="button" class="btn" data-dismiss="modal">Schliessen</button>
           </div>
         </div>
-        <ul id="events" class="collapse list-group"></ul>
+  
       </div>
+    </div>
 
-      <div id="articlesRow" class="row">
-        <!-- ARTICLES LOAD HERE -->
+  <div class="footer">
+    <ul class="footer__list">
+      <li>
+        <span class="uppercase ls-xloose fw-fat">
+          immochain
+        </span>
+      </li>
+      <li class="footer__logo">
+        <a href="http://www.asideas.de" target="_blank" class="footer__logo-link">
+          <span>made by</span>
+          <svg width="35" height="35" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none">
+              <path d="M34.798 16.642h-16.19a.202.202 0 0 1-.203-.202V.234a.202.202 0 0 1 .202-.202h16.19A.202.202 0 0 1 35 .234V16.44a.202.202 0 0 1-.202.202" fill="#121212"/>
+              <path d="M26.703 3.414c-2.777 0-5.028 2.204-5.028 4.923 0 2.72 2.251 4.924 5.028 4.924 2.776 0 5.027-2.205 5.027-4.924 0-2.72-2.25-4.923-5.027-4.923m0 1.566c1.909 0 3.462 1.506 3.462 3.357 0 1.851-1.553 3.358-3.462 3.358-1.91 0-3.463-1.507-3.463-3.358 0-1.851 1.553-3.357 3.463-3.357" fill="#FFF"/>
+              <path d="M16.595 16.32a.323.323 0 0 1-.322.322H.322A.323.323 0 0 1 0 16.32V.354C0 .177.144.033.322.032h15.951c.177 0 .322.145.322.322V16.32z" fill="#121212"/>
+              <path d="M9.046 3.775H7.549a.07.07 0 0 0-.07.07v8.985c0 .039.032.07.07.07h1.497a.07.07 0 0 0 .07-.07V3.844a.07.07 0 0 0-.07-.07" fill="#FFF"/>
+              <path d="M0 18.68c0-.177.145-.322.322-.322h15.951c.177 0 .322.145.322.322v15.966a.323.323 0 0 1-.322.322H.322A.323.323 0 0 1 0 34.646V18.68z" fill="#121212"/>
+              <path d="M8.297 21.74c-2.776 0-5.027 2.204-5.027 4.923 0 2.72 2.25 4.924 5.027 4.924s5.028-2.204 5.028-4.924c0-2.719-2.251-4.923-5.028-4.923m0 1.566c1.91 0 3.463 1.506 3.463 3.357 0 1.852-1.553 3.358-3.463 3.358-1.909 0-3.462-1.506-3.462-3.358 0-1.851 1.553-3.357 3.462-3.357" fill="#FFF"/>
+              <path d="M18.405 18.68c0-.177.145-.322.322-.322h15.951c.177 0 .322.145.322.322v15.966a.323.323 0 0 1-.322.322H18.727a.323.323 0 0 1-.322-.322V18.68z" fill="#121212"/>
+              <path d="M27.451 22.1h-1.497a.07.07 0 0 0-.07.07v8.986c0 .039.032.07.07.07h1.497a.07.07 0 0 0 .07-.07V22.17a.07.07 0 0 0-.07-.07" fill="#FFF"/>
+            </g>
+          </svg>
+          <span>ideas engineering</span>
+        </a>
+      </li>
+      <li>Axel Springer</li>
+    </ul>
+
+  </div>
+
+  <div id="articleTemplate" style="display: none;">
+    <div class="itemTemplate">
+      <div class="itemTemplate__image"></div>
+      <div class="itemTemplate__text">
+        <div class="itemTemplate__heading">
+          Heading
+        </div>
+        <div class="itemTemplate__intro">
+          Intro Text
+        </div>
+      </div>
+      <div class="itemTemplate__aside">
+        <div class="itemTemplate__seller">
+          <span class="itemTemplate__seller-text">
+            Seller >
+          </span>
+          <span class="itemTemplate__seller-text-1st">
+            You
+          </span>
+        </div>
+        <div class="itemTemplate__price">
+          <span class="itemTemplate__price__articleprice">
+            10 ETH
+          </span>
+          <button type="button" class="btn btn-small btn-primary btn-success btn-buy" onclick="App.buyArticle(); return false;">Buy</button>
+        </div>
       </div>
     </div>
   </div>
 
-
-  <div id="articleTemplate" style="display: none;">
+  <div id="articleTemplat" style="display: none;">
     <div class="row-lg-12">
       <div class="panel panel-default panel-article">
         <div class="panel-heading">
           <h3 class="panel-title"></h3>
         </div>
         <div class="panel-body">
+          <img src="./images/box-img-sm.png" />
           <strong>Beschreibung</strong>: <span class="article-description"></span><br/>
           <strong>Preis (ETH)</strong>: <span class="article-price"></span><br/>
           <strong>Verkauf durch</strong>: <span class="article-seller"></span><br/>
@@ -73,53 +208,9 @@
     </div>
   </div>
 
-  <!-- Modal form to sell an article -->
-  <div class="modal fade" id="sellArticle" role="dialog">
-    <div class="modal-dialog">
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Verkaufen</h4>
-        </div>
-        <div class="modal-body">
 
-          <div class="row">
-            <div class="col-lg-12">
-              <form>
-                <div class="form-group">
-                  <label for="article_name">Titel</label>
-                  <input type="text" class="form-control" id="article_name" placeholder="Enter the name of your article">
-                </div>
-                <div class="form-group">
-                  <label for="price">Preis in ETH</label>
-                  <input type="number" class="form-control" id="article_price" placeholder="1" pattern="[0-9]+([\.,][0-9]+)?" step="0.01">
-                </div>
-                <div class="form-group">
-                  <label for="description">Beschreibung</label>
-                  <textarea type="text" class="form-control vresize" id="article_description" placeholder="Describe your article" maxlength="255"></textarea>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary btn-success" data-dismiss="modal" onclick="App.sellArticle(); return false;">Submit</button>
-          <button type="button" class="btn" data-dismiss="modal">Schliessen</button>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div id="footer" class="container">
-    <nav class="navbar navbar-default navbar-fixed-bottom">
-      <div class="navbar-inner navbar-content-center text-center">
-        <p class="text-muted" credit><a href="http://chainskills.com">ImmoChain</a> - &copy; 2017 - Ideas Engineering - Michael Alber</p>
-      </div>
-    </nav>
-  </div>
+  
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

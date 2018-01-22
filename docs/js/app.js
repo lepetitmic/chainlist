@@ -99,18 +99,18 @@ App = {
 
     // Retrieve and fill the article template
     var articleTemplate = $('#articleTemplate');
-    articleTemplate.find('.panel-title').text(name);
-    articleTemplate.find('.article-description').text(description);
-    articleTemplate.find('.article-price').text(etherPrice + " ETH");
+    articleTemplate.find('.itemTemplate__heading').text(name);
+    articleTemplate.find('.itemTemplate__intro').text(description);
+    articleTemplate.find('.itemTemplate__price__articleprice').text(etherPrice + " ETH");
     articleTemplate.find('.btn-buy').attr('data-id', id);
     articleTemplate.find('.btn-buy').attr('data-value', etherPrice);
 
     // seller?
     if (seller == App.account) {
-      articleTemplate.find('.article-seller').text("You");
+      articleTemplate.find('.itemTemplate__seller-text-1st').text("You");
       articleTemplate.find('.btn-buy').hide();
     } else {
-      articleTemplate.find('.article-seller').text(seller);
+      articleTemplate.find('.itemTemplate__seller-text-1st').text(seller);
       articleTemplate.find('.btn-buy').show();
     }
 
@@ -149,7 +149,7 @@ App = {
         toBlock: 'latest'
       }).watch(function(error, event) {
         if (!error) {
-          $("#events").append('<li class="list-group-item">' + event.args._name + ' is for sale!' + '</li>');
+          $("#events").append('<li class="list-group-item">' + event.args._name + ' is for sale' + '</li>');
         } else {
           console.error(error);
         }
@@ -193,7 +193,7 @@ App = {
 
 $(function() {
   $(window).load(function() {
-    console.log("account");
     App.init();
+    console.log(App.contracts)
   });
 });
