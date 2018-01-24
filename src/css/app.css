@@ -365,8 +365,10 @@ html, body {
   display: inline;
   padding: 5px; }
 
+
   #imageid_1 {
     background: url("../images/1.jpg") center center no-repeat;
+    background-size: 60px auto;
   }
 
   #imageid_2 {
