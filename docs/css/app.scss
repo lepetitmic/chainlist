@@ -1,8 +1,8 @@
 @import "../../node_modules/include-media/dist/include-media.scss";
 
 $breakpoints: (
-  sm: 320px, 
-  md: 768px, 
+  sm: 320px,
+  md: 768px,
   lg: 1024px,
   xl: 1200px
 );
@@ -330,6 +330,26 @@ html, body {
   border-radius: 50%;
 }
 
+#imageid_1 {
+  background: url("../images/1.jpg") center center no-repeat;
+}
+
+#imageid_2 {
+  background-image: url("../images/2.jpg");
+}
+
+#imageid_3 {
+  background-image: url("../images/3.jpg");
+}
+
+#imageid_4 {
+  background-image: url("../images/4.jpg");
+}
+
+#imageid_5 {
+  background-image: url("../images/5.jpg");
+}
+
 .itemTemplate__text {
   flex: 1;
   display: flex;
@@ -418,7 +438,7 @@ html, body {
 .footer__logo {
   display: flex;
   align-items: center;
-  
+
 
   svg {
     margin: 0 10px;
