@@ -368,17 +368,20 @@ html, body {
 
   #imageid_1 {
     background: url("../images/1.jpg") center center no-repeat;
-    background-size: 60px auto;
+    background-size: auto 60px;
   }
 
   #imageid_2 {
-    background-image: url("../images/2.jpg");
+    background: url("../images/2.jpg") center center no-repeat;
+    background-size: auto 60px;
   }
 
   #imageid_3 {
-    background-image: url("../images/3.jpg");
+    background: url("../images/3.jpg") center center no-repeat;
+    background-size: auto 60px;
   }
 
   #imageid_4 {
-    background-image: url("../images/4.jpg");
+    background: url("../images/4.jpg") center center no-repeat;
+    background-size: auto 60px;
   }

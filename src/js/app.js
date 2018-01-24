@@ -74,6 +74,7 @@ App = {
 
       for (var i = 0; i < articleIds.length; i++) {
         var articleId = articleIds[i];
+        var this_i = i;
         chainListInstance.articles(articleId.toNumber()).then(function(article) {
           App.displayArticle(
             article[0],
@@ -81,7 +82,7 @@ App = {
             article[3],
             article[4],
             article[5],
-            i
+            this_i
           );
         });
       }
