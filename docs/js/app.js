@@ -100,7 +100,7 @@ App = {
 
     // Retrieve and fill the article template
     var articleTemplate = $('#articleTemplate');
-    articleTemplate.find('.itemTemplate__image').id("id_"+current_i);
+    articleTemplate.find('.itemTemplate__image').attr('id', "id_"+current_i);
     articleTemplate.find('.itemTemplate__heading').text(name);
     articleTemplate.find('.itemTemplate__intro').text(description);
     articleTemplate.find('.itemTemplate__price__articleprice').text(etherPrice + " ETH");
