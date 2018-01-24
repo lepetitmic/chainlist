@@ -80,7 +80,8 @@ App = {
             article[1],
             article[3],
             article[4],
-            article[5]
+            article[5],
+            i
           );
         });
       }
@@ -91,7 +92,7 @@ App = {
     });
   },
 
-  displayArticle: function(id, seller, name, description, price) {
+  displayArticle: function(id, seller, name, description, price, current_i) {
     // Retrieve the article placeholder
     var articlesRow = $('#articlesRow');
 
@@ -99,6 +100,7 @@ App = {
 
     // Retrieve and fill the article template
     var articleTemplate = $('#articleTemplate');
+    articleTemplate.find('.itemTemplate__image').id("id_"+current_i);
     articleTemplate.find('.itemTemplate__heading').text(name);
     articleTemplate.find('.itemTemplate__intro').text(description);
     articleTemplate.find('.itemTemplate__price__articleprice').text(etherPrice + " ETH");
