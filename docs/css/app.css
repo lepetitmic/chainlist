@@ -364,3 +364,19 @@ html, body {
   font-size: 18px;
   display: inline;
   padding: 5px; }
+
+  #imageid_1 {
+    background: url("../images/1.jpg") center center no-repeat;
+  }
+
+  #imageid_2 {
+    background-image: url("../images/2.jpg");
+  }
+
+  #imageid_3 {
+    background-image: url("../images/3.jpg");
+  }
+
+  #imageid_4 {
+    background-image: url("../images/4.jpg");
+  }
