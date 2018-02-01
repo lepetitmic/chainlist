@@ -366,22 +366,27 @@ html, body {
   padding: 5px; }
 
 
-  #imageid_1 {
+  #imageid_0 {
     background: url("../images/1.jpg") center center no-repeat;
     background-size: auto 60px;
   }
 
-  #imageid_2 {
+  #imageid_1 {
     background: url("../images/2.jpg") center center no-repeat;
     background-size: auto 60px;
   }
 
-  #imageid_3 {
+  #imageid_2 {
     background: url("../images/3.jpg") center center no-repeat;
     background-size: auto 60px;
   }
 
-  #imageid_4 {
+  #imageid_3 {
     background: url("../images/4.jpg") center center no-repeat;
+    background-size: auto 60px;
+  }
+
+  #imageid_4 {
+    background: url("../images/1.jpg") center center no-repeat;
     background-size: auto 60px;
   }
