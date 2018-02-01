@@ -74,7 +74,7 @@ App = {
 
       for (var i = 0; i < articleIds.length; i++) {
         var articleId = articleIds[i];
-        var this_i = i;
+        let this_i = i;
         chainListInstance.articles(articleId.toNumber()).then(function(article) {
           App.displayArticle(
             article[0],
